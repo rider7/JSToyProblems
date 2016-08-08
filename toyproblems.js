@@ -10,7 +10,7 @@ function revString(input){
 }
 revString('abc');
 
-//Alternate solutions
+//Alternate solution
 function revString2(input){
   return input.split('').reverse().join('');
 }
