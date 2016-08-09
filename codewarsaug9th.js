@@ -27,3 +27,8 @@ function isPalindrome(line) {
     return false;
     }
   }
+
+//Alternate solution
+function isPalindrome(line) {
+  return (String(line) == String(line).split('').reverse().join('') )  
+}
