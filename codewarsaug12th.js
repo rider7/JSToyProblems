@@ -9,7 +9,8 @@ else if(quantity < 3){
 return quantity * price;
 }
 else{
-var remainder = quantity % 3 * price;
-return (quantity-quantity% 3) /3 * 2 * price + remainder;
+var remainder = quantity % 3;
+var total = remainder * price;
+return (quantity-remainder) /3 * 2 * price + total;
 }
 }
